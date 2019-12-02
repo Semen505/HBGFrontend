@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* banner style ( */
+.home-page .banner {
+  background: #5cb85c;
+  box-shadow: inset 0 8px 8px -8px rgba(0,0,0,.3), inset 0 -8px 8px -8px rgba(0,0,0,.3);
+}
+
+.banner {
+  color: #fff;
+  background: #333;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home-page .banner p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300!important;
+  margin-bottom: 0;
+}
+
+.home-page .banner h1 {
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+  font-weight: 700!important;
+  text-align: center;
+  font-size: 3.5rem;
+  padding-bottom: .5rem;
+}
+.banner h1 {
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+  margin-bottom: 0;
+}
+
+.logo-font {
+  font-family: titillium web,sans-serif;
+}
+
+/* ) banner style */
+
+a:hover {
+  outline: none;
+  text-decoration: none;
+  color: #ee7700;
+}
+
+.idiom-tag-default {
+  color: #fff!important;
+  font-size: 1.0rem;
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+  white-space: nowrap;
+  margin-right: 3px;
+  margin-bottom: .2rem;
+  display: inline-block;
+  width:100%
+}
+
+.idiom-tag-default {
+  background-color: #818a91;
+}
+
+.idiom-tag-pill {
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+
+.sidebar{
+  margin-top: 6px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sidebar>.tag-list>a {
+  padding: 5px 5px 5px 15px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  line-height: 20px;
+}
+
+.idiom-meta .idiom {
+  /* color: royalblue; */
+  color:black;
+  font-size: 1.1rem;
+  /* font-weight: 500; */
+}
+
+.idiom-meta .info {
+  /* margin: 0 1.5rem 0 .3rem; top, right, bottom, left */
+  color: gray;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1rem;
+}
+
+.idiom-meta .icon {
+  height: 2vmin;
+  margin-right: 0.3rem;
+}
+
+.idiom-meta .like_font {
+  color: gray;
+  margin-bottom: 0rem;
+}
+
+.idiom-meta .info .date {
+  margin-left: 3rem;
+  color: #bbb;
+  font-size: .8rem;
+  display: inline-block;
+}
+
+.author {
+  font-weight: 400!important;
+}
+
+.btn-outline-primary {
+  color: #5cb85c;
+  background-image: none;
+  background-color: transparent;
+  border-color: #5cb85c;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.btn-sm, .btn-group-sm>.btn {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+  border-radius: .2rem;
+}
+
+.pull-xs-right {
+  float: right!important;
+}
+
+.btn-success:focus {
+  box-shadow: 0 0px 0px rgba(0,0,0,.0) !important;
+}
+
+.list-group {
+  display: contents;
+  text-align: center;
+}
+
+.idiom-content {
+  /* color: royalblue; */
+  color:black;
+  font-size: 1.1rem;
+  /* font-weight: bold; */
+}
+
+.page-link:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+
+.idiom-add-button{
+  background-color: #5cb85c;
+  color: #FFFFFF; 
+}
+
+.modal-90w {
+  max-width: 35% !important; 
+  /* max-width: none; */
+}
+
+.modal-header {
+  height: 100px;
+  background-color:#5cb85c;
+}
+
+.modal-footer {
+  height: 50px;
+}
+
+.modal-title{
+  margin-top: 3%;
+  margin-left: 3%;
+  font-family: titillium web,sans-serif;
+}
+
+.modal-body{
+  margin-top: 5px;
+  margin-left: 3%;
+  height: 620px;
+}
+
+.selectpicker{
+  margin-top: 5px;
+  width: 80%;
+}
+
+.modal-label{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.modal-body{
+  margin-left: 0px !important;
+}
+
+.modal-idiom-classify{
+  margin-top: 5px;
+  width: 40%;
+  height: 6%;
+}
+
+.modal-idiom-input{
+  margin-top: 5px;
+  width: 97%;
+  height: 6%;
+}
+
+.modal-input{
+  margin-top: 5px;
+  width: 97%;
+  height: 27%;
+}
+
+.modal-button{
+  width: 20%;
+  max-width: 20%;
+}
+
+.modal-select{
+  margin-right: 2.5%;
+}
+
+.table-scroll tbody {
+  position: absolute;
+  overflow-y: scroll;
+  height: 250px;
+  margin-right: 2.5%;
+}
+
+.table-scroll tr {
+  width: 100%;
+  table-layout: fixed;
+  display: inline-table;
+}
+
+.table-scroll thead > tr > th {
+  border: none;
+}
+
+.modal-add-category {
+  height: 50px;
+}
